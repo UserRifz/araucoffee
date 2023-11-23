@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #da0202a2;
+}
+
+header {
+    background-color: #000000;
+    color: #ecf0f1;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #2d3e50;
+    padding: 15px;
+    text-align: left;
+    background-color: #3498db;
+    color: #fff;
+}
+
+th {
+    background-color: #2980b9;
+}
+
+tr:hover {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+img {
+    max-width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+body#home {
+    background-image: url('6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; 
+}
+#home h2 {
+    text-align: center;
+}
+
+#home p {
+    text-align: center;
+}
+/* Add the following CSS rules for the menu page */
+
+#menu table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#menu th, #menu td {
+    border: 2px solid #3498db;
+    padding: 15px;
+    text-align: left;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#menu th {
+    background-color: #2980b9;
+}
+
+#menu tr:hover {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+#menu img {
+    width: 100px; /* Set a fixed width for the images */
+    height: 100px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the images maintain their aspect ratio */
+    border-radius: 50%;
+}
+
+#menu .menu-description {
+    max-width: 300px; /* Limit the width of the description */
+}
+
+#menu .menu-price {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#menu img:hover {
+    transform: scale(1.1);
+}
+
+#about {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+
+#about h2 {
+    color: #020202;
+}
+.signature-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.menu-item {
+    text-align: center;
+    margin: 15px;
+}
+
+.menu-image {
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-image:hover {
+    transform: scale(1.1);
+}
+
+

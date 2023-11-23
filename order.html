@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Arau - Order Now</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Coffee Arau</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="order">
+        <h2>Order Now</h2>
+        <form id="orderForm">
+            <label for="coffeeType">Select Your Desired Order:</label>
+            <select id="coffeeType" name="coffeeType" required>
+                <option value="Dalgona Coffee">Dalgona Coffee</option>
+                <option value="Irish Coffee">Irish Coffee</option>
+                <option value="Mocha Frappucino">Mocha Frappucino</option>
+                <option value="Caffe Mocha">Caffe Mocha</option>
+                <option value="Chocolate Cake">Chocolate Cake</option>
+                <option value="Strawberry Cheesecake">Strawberry Cheesecake</option>
+                <option value="Banana Split">Banana Split</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <button type="button" onclick="addToCart()">Add to Cart</button>
+
+            <input type="submit" value="Place Order">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Coffee Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
